@@ -12,13 +12,12 @@ var gulp = require('gulp'),
     del = require('del');
 
 gulp.task('styles', function() {
-    return gulp.src('src/css/main.scss')
-        .pipe(sass({ style: 'expanded' }))
+    return sass('src/css/main.scss', { style: 'expanded' })
         .pipe(gulp.dest('dist/assets/css'))
         .pipe(rename({suffix: '.min'}))
         .pipe(minifycss())
         .pipe(gulp.dest('dist/assets/css'))
-        .pipe(notify({ message: 'Style task complete' }));
+        .pipe(notify({ message: 'Styles task complete' }));
 });
 
 gulp.task('images', function() {
@@ -27,10 +26,6 @@ gulp.task('images', function() {
     .pipe(gulp.dest('dist/assets/img'))
     .pipe(notify({ message: 'Image task complete' }));
 });
-
-//.src(['app/js/app.js','app/js/*Controller.js', 'app/js/*Service.js'])
-
-//gulp.src(['app\js\app.js', 'app\js\**\*.js'])
 
 gulp.task('scripts', function() {
   return gulp.src(['src/js/vendor/**/*.js', 'src/js/*.js', 'src/js/app/**/*.js'])
