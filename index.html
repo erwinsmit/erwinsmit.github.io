@@ -27,36 +27,13 @@
         </div>
 
         <div class="highlight">
-            <div class="wrapper">
-                <div class="highlight__copy">
-                    <h2>Coolworld</h2>
-                    <p>
-                        <strong>Platform</strong> <br />
-                        Magento Enterprise
-                    </p>
-                    <p>
-                        <strong>Agency</strong> <br />
-                        Session Digital Ltd
-                    </p>
 
-                    <p>
-                        <a class="button" href="http://www.coolworld.com.ng" target="_blank">View site</a>
-                    </p>
-                </div>            
-
-                <div class="highlight__gallery">
-                    <div class="highlight__gallery-slider">
-                        <img class="highlight__gallery-image" src="dist/assets/img/projects/coolworld-large-1.png" />
-                        <img class="highlight__gallery-image" src="dist/assets/img/projects/coolworld-large-1.png" />
-                    </div>    
-                </div>
-            </div>
         </div>
 
         <div class="main-container">
             <div class="main wrapper clearfix">
                 <div class="project-items">
-                    <article class="project-item">
+                    <article class="project-item" data-project-id="coolworld">
                         <div class="project-item__image-container">
                             <img class="project-item__image" src="dist/assets/img/projects/coolworld-small.jpg" alt="Coolworld" />
                         </div>
@@ -146,5 +123,37 @@
         </div>-->
 
     <body>
+    <script id="project-detail-template" type="text/x-handlebars-template">
+        <div class="wrapper">
+            <div class="highlight__copy">
+                <h2>{{title}}</h2>
+                <p>
+                    <strong>Platform</strong> <br />
+                    {{platform}}
+                </p>
+                <p>
+                    <strong>Agency</strong> <br />
+                    {{agency}}
+                </p>
+
+                <p>
+                    <a class="button" href="{{link}}" target="_blank">View site</a>
+                </p>
+            </div>
+
+            {{#each comments}}
+            <h2>By {{fullName author}}</h2>
+            <div class="body">{{body}}</div>
+            {{/each}}
+
+            <div class="highlight__gallery">
+                <div class="highlight__gallery-slider">
+                    {{#each gallery}}
+                    <img class="highlight__gallery-image" src="{{src}}" />
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </script>
     <script type="text/javascript" src="dist/assets/js/main.min.js"></script>
 </html>

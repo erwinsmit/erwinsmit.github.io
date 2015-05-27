@@ -1,0 +1,30 @@
+{
+    "coolworld": {
+
+        "id": "coolworld",
+        "title": "Coolworld test",
+        "platform": "Magento Enterprise test2",
+        "agency": "Session Digital Ltd",
+        "link": "http://www.coolworld.com.ng",
+        "thumb": "dist/assets/img/projects/coolworld-small.jpg",
+        "gallery": [
+            {"src": "dist/assets/img/projects/coolworld-large-1.png"},
+            {"src": "dist/assets/img/projects/coolworld-large-1.png"}
+        ]
+
+    },
+    "coolworld2": {
+
+        "id": "coolworld2",
+        "title": "Coolworld",
+        "platform": "Magento Enterprise",
+        "agency": "Session Digital Ltd",
+        "link": "http://www.coolworld.com.ng",
+        "thumb": "dist/assets/img/projects/coolworld-small.jpg",
+        "gallery": [
+            {"src": "dist/assets/img/projects/coolworld-large-1.png"},
+            {"src": "dist/assets/img/projects/coolworld-large-1.png"}
+        ]
+
+    }
+}
