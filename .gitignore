@@ -1,0 +1,5 @@
+/node_modules/*
+/jshint_.jshintrc_files/*
+/.idea/*
+/.sass-cache/*
+/dist/*

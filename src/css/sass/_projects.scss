@@ -1,0 +1,146 @@
+.project-items {
+	@include clearfix;
+	margin-top: $base-spacing-unit;
+}
+
+.project-item {
+	@include span-columns(3);
+	@include omega(4n);
+	background: $white;
+	padding: $base-spacing-unit / 3;
+	border-radius: 5px;
+	margin-bottom: $base-spacing-unit;
+	
+	&__image-container {
+		position: relative;
+		padding-bottom: 100%;
+	}
+
+	&__image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: auto;
+		max-width: 100%;
+	}
+
+	&__title {
+		@include font-size(16px);
+		margin: ($base-spacing-unit / 4) 0 0;
+	}
+
+	&__subtitle {
+		@include font-size(14px);
+		font-family: $header-font-family;
+		color: $grey;
+	}
+}
+
+.highlight {
+	@include clearfix;
+ 	background: #fff;
+	overflow-y: hidden;
+	height: 0;
+	@include transition(height 0.35s ease-in-out);
+
+	.wrapper {
+		padding: $base-spacing-unit 0;
+	}
+
+	&.open {
+		height: 648px;
+	}
+
+ 	&__copy {
+ 		@include span-columns(3);
+ 	}
+
+ 	&__gallery {
+ 		@include span-columns(9);
+ 		@include omega();
+ 		position:relative;
+
+ 		&:before {
+ 			//content: "";
+			width: 60px;
+			height: 6px;
+			background: #474e5d;
+			position: absolute;
+			top: 16px;
+			left: 50%;
+			margin-left: -30px;
+			z-index: 1;
+  		}
+
+ 		&:after {
+  			//content: "";
+			width: 18px;
+			height: 18px;
+			border-radius: 50%;
+			background: #474e5d;
+			position: absolute;
+			bottom: 10px;
+			left: 50%;
+			margin-left: -9px;
+			z-index: 1;
+  		}
+ 	}
+
+ 	&__gallery-image {
+ 		width: auto;
+ 		height: auto;
+ 	}
+
+ 	.slick-list {
+ 		height: 600px;
+ 		bordeR: 37px solid #2f343e;
+  		border-radius: 31px;
+	}
+}
+
+.button {
+	background: $color-pallete-5;
+	color: $white;
+	padding: 10px;
+
+	&:hover {
+		background: $black;
+		color: $white;
+	}
+}
+
+.slick-slider {
+	button {
+		background: transparent;
+		border: none;
+		font-size: 3em;
+		position: absolute;
+		top: 50%;
+		margin-top: -27px;
+
+		&:before {
+			color: $color-brand-primary;
+			position: relative;
+		    content: "";
+		    display: inline-block;
+		    width: 0.8em;
+		    height: 0.8em;
+		    border-right: 0.1em solid $color-brand-primary;
+		    border-top: 0.1em solid $color-brand-primary;
+		    transform: rotate(45deg);
+		    margin-right: 0.5em;
+		}
+
+		&.slick-prev {
+			left: -40px;
+
+			&:before {
+				transform: rotate(225deg);
+			}
+		}
+
+		&.slick-next {
+			right: -65px;
+		}
+	}
+}

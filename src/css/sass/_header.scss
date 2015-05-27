@@ -1,0 +1,57 @@
+.header-container {
+	background: $color-brand-primary;
+	color: $color-header-copy;
+
+	h1 {
+		margin: 0;
+	}
+
+}
+
+.header {
+	@include clearfix;
+	min-height: 80px;
+
+	&__title-wrap {
+		float: left;
+	}
+
+	&__title {
+
+	}
+
+	&__subtitle {
+
+	}
+}
+
+.navigation {
+	float: right;
+
+	ul {
+		@include clearfix;
+		padding: 0;
+		margin: 0;
+	}
+
+	&__item {
+		float: left;
+		font-family: Lato, sans-serif;
+		padding: 0 $base-spacing-unit;
+		height: 73px;
+		line-height: 80px;
+		margin-left: $base-spacing-unit;
+
+		&--active {
+			border-bottom: 6px solid $color-brand-secondary;
+		}
+	}
+
+	&__link {
+		color: $color-header-copy;
+	
+		&:hover {
+			color: $color-brand-secondary;
+		}
+	}
+}

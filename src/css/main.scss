@@ -1,0 +1,15 @@
+@charset 'UTF-8';
+
+@import 'sass/vendor/normalize';
+@import 'sass/vendor/slick';
+@import 'sass/bourbon/bourbon';
+@import 'sass/neat/neat';
+
+@import
+'sass/vars',
+'sass/fonts',
+'sass/mixins/font-size',
+'sass/base',
+'sass/headings',
+'sass/header',
+'sass/projects';
