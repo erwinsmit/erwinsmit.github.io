@@ -29,7 +29,7 @@ Portfolio.Projects = (function ($) {
                     content = projects[projectId],
                     html    = template(content);
 
-                $('.highlight').html(html).addClass('open');
+                $('.highlight').html(html).toggleClass('open');
                 Portfolio.Projects.projectSlider();
             });
         }

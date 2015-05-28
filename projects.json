@@ -1,30 +1,76 @@
 {
-    "coolworld": {
+  "coolworld": {
+    "title": "Coolworld",
+    "platform": "Magento Enterprise test",
+    "agency": "Session Digital Ltd",
+    "link": "http://www.coolworld.com.ng",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/coolworld-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/coolworld-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/coolworld-large-3.jpg"
+      }
+    ]
 
-        "id": "coolworld",
-        "title": "Coolworld test",
-        "platform": "Magento Enterprise test2",
-        "agency": "Session Digital Ltd",
-        "link": "http://www.coolworld.com.ng",
-        "thumb": "dist/assets/img/projects/coolworld-small.jpg",
-        "gallery": [
-            {"src": "dist/assets/img/projects/coolworld-large-1.png"},
-            {"src": "dist/assets/img/projects/coolworld-large-1.png"}
-        ]
+  },
+  "fudge-urban": {
 
-    },
-    "coolworld2": {
+    "title": "Fudge Urban",
+    "platform": "Magento Enterprise",
+    "agency": "Session Digital Ltd",
+    "link": "http://fudgeurban.com",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/fudge-urban-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/fudge-urban-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/fudge-urban-large-3.jpg"
+      }
+    ]
 
-        "id": "coolworld2",
-        "title": "Coolworld",
-        "platform": "Magento Enterprise",
-        "agency": "Session Digital Ltd",
-        "link": "http://www.coolworld.com.ng",
-        "thumb": "dist/assets/img/projects/coolworld-small.jpg",
-        "gallery": [
-            {"src": "dist/assets/img/projects/coolworld-large-1.png"},
-            {"src": "dist/assets/img/projects/coolworld-large-1.png"}
-        ]
+  },
+  "sainsburys": {
 
-    }
+    "title": "Sainsbury's",
+    "platform": "Magento Community",
+    "agency": "Session Digital Ltd",
+    "link": false,
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/sainsburys-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/sainsburys-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/sainsburys-large-3.jpg"
+      }
+    ]
+
+  },
+  "post-office": {
+
+    "title": "Post Office",
+    "platform": "Magento Enterprise",
+    "agency": "Session Digital Ltd",
+    "link": false,
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/post-office-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/post-office-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/post-office-large-3.jpg"
+      }
+    ]
+  }
 }
