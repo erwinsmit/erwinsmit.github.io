@@ -72,5 +72,50 @@
         "src": "dist/assets/img/projects/post-office-large-3.jpg"
       }
     ]
+  },
+  "the-soccer-store": {
+    "title": "The Soccer Store",
+    "platform": "Magento Community",
+    "agency": "Yoma Ltd",
+    "link": "http://www.thesoccerstore.co.uk",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/the-soccer-store-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/the-soccer-store-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/the-soccer-store-large-3.jpg"
+      }
+    ]
+  },
+  "sporting-pro": {
+    "title": "Sporting Pro",
+    "platform": "Magento Enterprise",
+    "agency": "Yoma Ltd",
+    "link": "http://www.sportingpro.co.uk/",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/sporting-pro-large-1.jpg"
+      }
+    ]
+  },
+  "ten-supplements": {
+    "title": "Ten Supplements",
+    "platform": "Magento Enterprise",
+    "agency": "Yoma Ltd",
+    "link": "http://www.tensupplements.co.uk",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/ten-supplements-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/ten-supplements-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/ten-supplements-large-3.jpg"
+      }
+    ]
   }
 }
