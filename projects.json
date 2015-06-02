@@ -117,5 +117,90 @@
         "src": "dist/assets/img/projects/ten-supplements-large-3.jpg"
       }
     ]
+  },
+  "boohoo-fr": {
+    "title": "Boohoo FR",
+    "platform": "Magento Enterprise",
+    "agency": "Yoma Ltd",
+    "link": "http://fr.boohoo.com/",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/boohoo-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/boohoo-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/boohoo-large-3.jpg"
+      }
+    ]
+  },
+  "all-about-weight": {
+    "title": "All About Weight",
+    "platform": "Magento Enterprise",
+    "agency": "Yoma Ltd",
+    "link": "http://www.allaboutweight.co.uk/",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/all-about-weight-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/all-about-weight-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/all-about-weight-large-3.jpg"
+      }
+    ]
+  },
+  "tj-hughes": {
+    "title": "TJ Hughes",
+    "platform": "Magento Enterprise",
+    "agency": "Yoma Ltd",
+    "link": "http://www.tjhughes.co.uk/",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/tj-hughes-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/tj-hughes-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/tj-hughes-large-3.jpg"
+      }
+    ]
+  },
+  "eureka-cycle-sports": {
+    "title": "Eureka Cycle Sports",
+    "platform": "Magento Community",
+    "agency": "Yoma Ltd",
+    "link": "http://www.eurekacyclesports.co.uk/",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/eureka-cycle-sports-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/eureka-cycle-sports-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/eureka-cycle-sports-large-3.jpg"
+      }
+    ]
+  },
+  "aphrodite1994": {
+    "title": "Aphrodite 1994",
+    "platform": "Magento Community",
+    "agency": "Yoma Ltd",
+    "link": "http://www.eurekacyclesports.co.uk/",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/aphrodite1994-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/aphrodite1994-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/aphrodite1994-large-3.jpg"
+      }
+    ]
   }
 }
