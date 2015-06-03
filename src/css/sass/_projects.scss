@@ -37,11 +37,13 @@
 }
 
 .highlight {
+  @include transition(height 0.35s ease-in-out);
   @include clearfix;
-  background: #fff;
+  background: $white;
   overflow-y: hidden;
   height: 0;
-  @include transition(height 0.35s ease-in-out);
+  position: relative;
+  z-index: 2;
 
   .wrapper {
     padding-top: $base-spacing-unit;

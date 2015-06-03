@@ -1,89 +1,76 @@
 * {
-    margin:  0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6,
 p {
-    margin-bottom: $base-line-height;
+  margin-bottom: $base-line-height;
 }
 
 @function strip-unit($value) {
-    @return $value / ($value * 0 + 1);
+  @return $value / ($value * 0 + 1);
 }
 
 $baseline: strip-unit($base-line-height);
 
 html {
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-family: $base-font-family;
-    color: $base-text-color;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-family: $base-font-family;
+  color: $base-text-color;
 }
 
 body {
-    background: $main-background;
-    //background: url('../img/grey.png');
+  background: $main-background;
+  //background: url('../img/grey.png');
 }
 
+x
 h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 h1 {
-    @include font-size($font-size-h1);
+  @include font-size($font-size-h1);
 }
 
 h2 {
-    @include font-size($font-size-h2);
+  @include font-size($font-size-h2);
 }
 
 h3 {
-    @include font-size($font-size-h3);
+  @include font-size($font-size-h3);
 }
 
 h4 {
-    @include font-size($font-size-h4);
+  @include font-size($font-size-h4);
 }
 
 h5 {
-    @include font-size($font-size-h5);
+  @include font-size($font-size-h5);
 }
 
 h6 {
-    @include font-size($font-size-h6);
+  @include font-size($font-size-h6);
 }
 
-
-
 a {
-    color: $color-link;
+  color: $color-pallete-2;
+  text-decoration: none;
 
-    @if ($link-underlined == false) {
-        text-decoration: none;
-    }
-
-    &:hover {
-        color: $color-link-hover;
-
-        @if ($link-underlined-hover == false) {
-            text-decoration: none;
-        }
-
-        @if ($link-underlined-hover == true) {
-            text-decoration: underline;
-        }
-
-    }
-
+  &:hover {
+    color: $color-link-hover;
+    text-decoration: underline;
+  }
 }
 
 .wrapper {
-	@include outer-container;
-	padding: 0 $outer-gutter;
+  @include outer-container;
+  padding: 0 $outer-gutter;
 }
