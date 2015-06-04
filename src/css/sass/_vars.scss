@@ -23,6 +23,7 @@ $white: #fff;
 $grey: #959595;
 $black: #333;
 
+$color-header-copy: $white;
 $main-background: #eee;
 $base-text-color: #333;
 $color-brand-primary: $color-pallete-1;
@@ -30,5 +31,16 @@ $color-brand-secondary: $color-pallete-2;
 $color-link:            $color-brand-primary;
 $color-link-hover:      $color-brand-secondary;
 
-// header
-$color-header-copy: $white;
+//Breakpoints
+$xsmall-width: 420px;
+$small-width: 600px;
+$medium-width: 768px;
+$large-width: 1024px;
+$xlarge-width: 1200px;
+
+$small: new-breakpoint(min-width ($xsmall-width + 1) max-width $small-width);
+$medium: new-breakpoint(min-width ($small-width + 1) max-width $large-width);
+$medium-below: new-breakpoint(max-width $medium-width);
+$large: new-breakpoint(min-width ($medium-width + 1) max-width $xlarge-width);
+$large-above: new-breakpoint(min-width ($large-width + 1));
+$xlarge: new-breakpoint(min-width $xlarge-width);

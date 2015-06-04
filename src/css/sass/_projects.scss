@@ -1,15 +1,32 @@
+.main-container {
+  transform: translate3d(0, 0, 0);
+}
+
 .project-items {
   @include clearfix;
   margin-top: $base-spacing-unit;
 }
 
 .project-item {
-  @include span-columns(3);
-  @include omega(4n);
   background: $white;
   padding: $base-spacing-unit / 3;
   border-radius: 5px;
   margin-bottom: $base-spacing-unit;
+
+  @include media($small) {
+    @include span-columns(6);
+    @include omega(2n);
+  }
+
+  @include media($medium) {
+    @include span-columns(4);
+    @include omega(3n);
+  }
+
+  @include media($large-above) {
+    @include span-columns(3);
+    @include omega(4n);
+  }
 
   &__image-container {
     position: relative;
@@ -20,8 +37,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: auto;
-    max-width: 100%;
+    width: 100%;
   }
 
   &__title {
@@ -47,7 +63,6 @@
 
   .wrapper {
     padding-top: $base-spacing-unit;
-
   }
 
   &.open {
@@ -55,13 +70,27 @@
   }
 
   &__copy {
-    @include span-columns(3);
+    @include span-columns(4);
   }
 
   &__gallery {
-    @include span-columns(9);
+    @include span-columns(8);
     @include omega();
     position: relative;
+    left: -65px;
+    padding: 0 0 68.421% 65px;
+  }
+
+  &__gallery-image {
+    width: auto;
+    height: auto;
+  }
+
+  .slick-slider {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
 
     &:before {
       content: "";
@@ -89,13 +118,7 @@
     }
   }
 
-  &__gallery-image {
-    width: auto;
-    height: auto;
-  }
-
   .slick-list {
-    height: 589px;
     border: 37px solid #2f343e;
     border-radius: 31px;
   }
