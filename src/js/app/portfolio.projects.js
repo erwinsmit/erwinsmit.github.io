@@ -9,24 +9,16 @@ Portfolio.Projects = (function ($) {
             this.fetchProjects();
         },
         projectSlider: function () {
-            $('.highlight__gallery-slider').slick({
+            var $slider = $('.highlight__gallery-slider');
+
+            $slider.on('init', function () {
+                Portfolio.Projects.resizeHighlight();
+            });
+
+            $slider.slick({
                 prevArrow: '<button type="button" class="slick-prev"></button>',
                 nextArrow: '<button type="button" class="slick-next"></button>'
             });
-
-            $('.highlight__gallery-slider').on('swipe', function () {
-                console.log('swipe');
-                var highlightHeight = $('.highlight__gallery-slider').outerHeight() + 100;
-                $('.highlight').height(highlightHeight);
-            });
-
-            $('.highlight__gallery-slider').on('init', function () {
-                console.log('init');
-                var highlightHeight = $('.highlight__gallery-slider').outerHeight() + 100;
-                $('.highlight').height(highlightHeight);
-            });
-
-
         },
         fetchProjects: function () {
             $.getJSON("projects.json").done(function (data) {
@@ -47,7 +39,24 @@ Portfolio.Projects = (function ($) {
                 $highLight.html(html);
                 Portfolio.Projects.projectSlider();
 
+                $('html,body').animate({
+                    scrollTop: $('.highlight').offset().top
+                }, 500);
             });
+
+            $(window).smartresize(function () {
+                Portfolio.Projects.resizeHighlight();
+            });
+        },
+        resizeHighlight: function () {
+            var $hightLightGallery = $('.highlight__gallery'),
+                highlightHeight = $hightLightGallery.outerHeight() + 50;
+
+            if ($hightLightGallery.css('float') !== 'left') {
+                highlightHeight = $hightLightGallery.outerHeight() + $('.highlight__copy').outerHeight()  + 80;
+            }
+
+            $('.highlight').height(highlightHeight);
         }
     };
 })(window.jQuery);
