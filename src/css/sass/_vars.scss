@@ -38,10 +38,10 @@ $medium-width: 768px;
 $large-width: 1024px;
 $xlarge-width: 1200px;
 
-$small: new-breakpoint(min-width ($xsmall-width + 1) max-width $small-width);
-$medium: new-breakpoint(min-width ($small-width + 1) max-width $large-width);
+$small: new-breakpoint(max-width $small-width);
+$medium: new-breakpoint(min-width ($small-width + 1) max-width $medium-width);
 $medium-below: new-breakpoint(max-width $medium-width);
 $medium-above: new-breakpoint(min-width $medium-width + 1);
-$large: new-breakpoint(min-width ($medium-width + 1) max-width $xlarge-width);
+$large: new-breakpoint(min-width ($medium-width + 1) max-width $large-width);
 $large-above: new-breakpoint(min-width ($large-width + 1));
 $xlarge: new-breakpoint(min-width $xlarge-width);

@@ -21,6 +21,12 @@
     }
   }
 
+  @include media($small) {
+    &.show-navigation {
+      margin-bottom: 221px;
+    }
+  }
+
   &__title-wrap {
     float: left;
   }
@@ -65,6 +71,23 @@
       text-decoration: none;
       border-bottom: 6px solid $color-brand-secondary;
     }
+
+    &--linkedin {
+      @include size(26px 26px);
+      text-indent: 10000em;
+      background: url('../img/linkedin.png') no-repeat;
+      position: relative;
+      top: 16px;
+
+      @include media($medium-above) {
+        top: 24px;
+      }
+
+      &:hover {
+        opacity: 0.6;
+        border: none;
+      }
+    }
   }
 
   @include media($medium-below) {
@@ -78,7 +101,9 @@
     width: 100%;
     height: 0;
     overflow: hidden;
+  }
 
+  @include media($medium) {
     &__item {
       @include transition(height 0.30s ease-in-out);
       float: none;
@@ -89,8 +114,34 @@
 
     .show-navigation & {
       height: 63px;
+    }
+  }
 
-      &__item {
+  @include media($small) {
+    .show-navigation & {
+      height: 220px;
+    }
+
+    &__item {
+      float: none;
+      margin: 0;
+      border-bottom: 1px solid darken($white, 20);
+      line-height: 55px;
+      height: 55px;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+
+    &__link {
+      &:hover {
+        border: none;
+      }
+
+      &--linkedin {
+        float: right;
+        top: 12px;
       }
     }
   }
@@ -153,36 +204,25 @@
 
   span::after {
     bottom: -14px;
-    -webkit-transition-property: bottom, -webkit-transform;
-    transition-property: bottom, transform;
+    @include transition-property(bottom, transform);
   }
 
 }
-
-.show-navigation .hamburger {
-  //background-color: #cb0032;
-}
-
 .show-navigation .hamburger span {
   background: none;
 }
 
 .show-navigation .hamburger span::before {
   top: 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+  @include transform(rotate(45deg));
 }
 
 .show-navigation .hamburger span::after {
   bottom: 0;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+  @include transform(rotate(-45deg));
 }
 
 .show-navigation .hamburger span::before,
 .show-navigation .hamburger span::after {
-  -webkit-transition-delay: 0, 0.3s;
-  transition-delay: 0, 0.3s;
+  @include transition-delay(0, 0.3s);
 }

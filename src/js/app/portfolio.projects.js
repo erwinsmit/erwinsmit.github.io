@@ -13,6 +13,10 @@ Portfolio.Projects = (function ($) {
 
             $slider.on('init', function () {
                 Portfolio.Projects.resizeHighlight();
+
+                $(window).smartresize(function () {
+                    Portfolio.Projects.resizeHighlight();
+                });
             });
 
             $slider.slick({
@@ -23,10 +27,11 @@ Portfolio.Projects = (function ($) {
         fetchProjects: function () {
             $.getJSON("projects.json").done(function (data) {
                 projects = data;
-                Portfolio.Projects.showProjects();
+                Portfolio.Projects.showProject();
+                Portfolio.Projects.hideProject();
             });
         },
-        showProjects: function () {
+        showProject: function () {
             var source = $("#project-detail-template").html(),
                 template = Handlebars.compile(source);
 
@@ -40,12 +45,13 @@ Portfolio.Projects = (function ($) {
                 Portfolio.Projects.projectSlider();
 
                 $('html,body').animate({
-                    scrollTop: $('.highlight').offset().top
+                    scrollTop: $highLight.offset().top
                 }, 500);
             });
-
-            $(window).smartresize(function () {
-                Portfolio.Projects.resizeHighlight();
+        },
+        hideProject: function () {
+            $('.highlight').on('click', '.highlight__close', function () {
+                $('.highlight').height(0);
             });
         },
         resizeHighlight: function () {
@@ -56,7 +62,12 @@ Portfolio.Projects = (function ($) {
                 highlightHeight = $hightLightGallery.outerHeight() + $('.highlight__copy').outerHeight()  + 80;
             }
 
-            $('.highlight').height(highlightHeight);
+
+            if ($hightLightGallery[0]) {
+                $('.highlight').height(highlightHeight);
+            } else {
+                $('.highlight').height(0);
+            }
         }
     };
 })(window.jQuery);

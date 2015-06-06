@@ -13,12 +13,12 @@
   border-radius: 5px;
   margin-bottom: $base-spacing-unit;
 
-  @include media($small) {
+  @include media($medium) {
     @include span-columns(6);
     @include omega(2n);
   }
 
-  @include media($medium) {
+  @include media($large) {
     @include span-columns(4);
     @include omega(3n);
   }
@@ -64,10 +64,44 @@
 
   .wrapper {
     padding-top: $base-spacing-unit;
+    position: relative;
   }
 
   &.open {
     height: 648px;
+  }
+
+  &__close {
+    position: absolute;
+    right: 25px;
+    top: $base-spacing-unit;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+
+    @include media($medium-above) {
+      right: 5px;
+    }
+
+    &:before,
+    &:after {
+      position: absolute;
+      display: block;
+      bottom: 17px;
+      left: 0;
+      width: 100%;
+      height: 6px;
+      background-color: $color-brand-primary;
+      content: "";
+    }
+
+    &:before {
+      @include transform(rotate(45deg));
+    }
+
+    &:after {
+      @include transform(rotate(-45deg));
+    }
   }
 
   &__copy {
@@ -89,7 +123,7 @@
 
   &__gallery {
     position: relative;
-    padding: 0 0 85% 65px;
+    padding: 0 0 74% 65px;
 
     @include media($medium) {
       width: calc(100% - 55px);
@@ -100,7 +134,7 @@
     @include media($medium-above) {
       @include span-columns(8);
       @include omega();
-      left: -32px;
+      left: -43px;
       padding: 0 0 50% 65px;
     }
 
