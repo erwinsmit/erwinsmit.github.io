@@ -1,3 +1,21 @@
+@include keyframes(spin-clockwise) {
+  from {
+   @include transform(rotate(0deg));
+  }
+  to {
+    @include transform(rotate(360deg));
+  }
+}
+
+@include keyframes(spin-anti-clockwise) {
+  from {
+    @include transform(rotate(360deg));
+  }
+  to {
+    @include transform(rotate(0deg));
+  }
+}
+
 .header-container {
   background: $color-brand-primary;
   color: $color-header-copy;
@@ -32,11 +50,40 @@
   }
 
   &__logo {
+    @include size(60px 74px);
     float: left;
+    position: relative;
 
-    img {
-      width: 50px;
-      margin: 14px 10px 0 0;
+    svg {
+      fill: $white;
+      position: absolute;
+
+      &.small-cog {
+        @include size(27px 27px);
+        top: 14px;
+        left: 22px;
+      }
+
+      &.large-cog {
+        @include size(35px 35px);
+        top: 32px;
+        left: 0;
+      }
+    }
+  }
+
+  &__logo-wrap {
+    float: left;
+    cursor: pointer;
+
+    &:hover {
+      .small-cog {
+        @include animation(spin-clockwise 3s linear infinite);
+      }
+
+      .large-cog {
+        @include animation(spin-anti-clockwise 3s linear infinite);
+      }
     }
   }
 }
@@ -78,6 +125,7 @@
       background: url('../img/linkedin.png') no-repeat;
       position: relative;
       top: 16px;
+      overflow: hidden;
 
       @include media($medium-above) {
         top: 24px;

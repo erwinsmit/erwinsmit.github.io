@@ -12,6 +12,12 @@
   padding: $base-spacing-unit / 3;
   border-radius: 5px;
   margin-bottom: $base-spacing-unit;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    opacity: 0.6;
+  }
 
   @include media($medium) {
     @include span-columns(6);
@@ -209,6 +215,7 @@
   &:hover {
     background: $black;
     color: $white;
+    text-decoration: none;
   }
 }
 

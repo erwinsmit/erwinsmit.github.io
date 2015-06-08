@@ -59,7 +59,7 @@ Portfolio.Projects = (function ($) {
                 highlightHeight = $hightLightGallery.outerHeight() + 50;
 
             if ($hightLightGallery.css('float') !== 'left') {
-                highlightHeight = $hightLightGallery.outerHeight() + $('.highlight__copy').outerHeight()  + 80;
+                highlightHeight = $hightLightGallery.outerHeight() + $('.highlight__copy').outerHeight() + 80;
             }
 
 
