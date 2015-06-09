@@ -794,7 +794,7 @@ h2 {
 }
 @media screen and (max-width: 600px) {
   .header.show-navigation {
-    margin-bottom: 221px;
+    margin-bottom: 171px;
   }
 }
 .header__title-wrap {
@@ -875,7 +875,7 @@ h2 {
   text-indent: 10000em;
   background: url("../img/linkedin.png") no-repeat;
   position: relative;
-  top: 16px;
+  top: 5px;
   overflow: hidden;
 }
 @media screen and (min-width: 769px) {
@@ -919,7 +919,7 @@ h2 {
 }
 @media screen and (max-width: 600px) {
   .show-navigation .navigation {
-    height: 220px;
+    height: 164px;
   }
   .navigation__item {
     float: none;

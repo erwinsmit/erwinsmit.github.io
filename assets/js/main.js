@@ -6635,8 +6635,10 @@ Portfolio.Projects = (function ($) {
             });
         },
         hideProject: function () {
-            $('.highlight').on('click', '.highlight__close', function () {
-                $('.highlight').height(0);
+            var $highlight = $('.highlight');
+            $highlight.on('click', '.highlight__close', function () {
+                $highlight.height(0);
+                setTimeout(function () { $highlight.html(''); }, 350);
             });
         },
         resizeHighlight: function () {
@@ -6646,7 +6648,6 @@ Portfolio.Projects = (function ($) {
             if ($hightLightGallery.css('float') !== 'left') {
                 highlightHeight = $hightLightGallery.outerHeight() + $('.highlight__copy').outerHeight() + 80;
             }
-
 
             if ($hightLightGallery[0]) {
                 $('.highlight').height(highlightHeight);
