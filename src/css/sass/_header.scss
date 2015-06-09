@@ -41,7 +41,7 @@
 
   @include media($small) {
     &.show-navigation {
-      margin-bottom: 221px;
+      margin-bottom: 171px;
     }
   }
 
@@ -124,7 +124,7 @@
       text-indent: 10000em;
       background: url('../img/linkedin.png') no-repeat;
       position: relative;
-      top: 16px;
+      top: 5px;
       overflow: hidden;
 
       @include media($medium-above) {
@@ -167,7 +167,7 @@
 
   @include media($small) {
     .show-navigation & {
-      height: 220px;
+      height: 164px;
     }
 
     &__item {
