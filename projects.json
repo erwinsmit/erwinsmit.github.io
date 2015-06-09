@@ -1,0 +1,206 @@
+{
+  "coolworld": {
+    "title": "Coolworld",
+    "platform": "Magento Enterprise test",
+    "agency": "Session Digital Ltd",
+    "link": "http://www.coolworld.com.ng",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/coolworld-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/coolworld-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/coolworld-large-3.jpg"
+      }
+    ]
+
+  },
+  "fudge-urban": {
+
+    "title": "Fudge Urban",
+    "platform": "Magento Enterprise",
+    "agency": "Session Digital Ltd",
+    "link": "http://fudgeurban.com",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/fudge-urban-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/fudge-urban-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/fudge-urban-large-3.jpg"
+      }
+    ]
+
+  },
+  "sainsburys": {
+
+    "title": "Sainsbury's",
+    "platform": "Magento Community",
+    "agency": "Session Digital Ltd",
+    "link": false,
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/sainsburys-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/sainsburys-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/sainsburys-large-3.jpg"
+      }
+    ]
+
+  },
+  "post-office": {
+
+    "title": "Post Office",
+    "platform": "Magento Enterprise",
+    "agency": "Session Digital Ltd",
+    "link": false,
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/post-office-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/post-office-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/post-office-large-3.jpg"
+      }
+    ]
+  },
+  "the-soccer-store": {
+    "title": "The Soccer Store",
+    "platform": "Magento Community",
+    "agency": "Yoma Ltd",
+    "link": "http://www.thesoccerstore.co.uk",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/the-soccer-store-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/the-soccer-store-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/the-soccer-store-large-3.jpg"
+      }
+    ]
+  },
+  "sporting-pro": {
+    "title": "Sporting Pro",
+    "platform": "Magento Enterprise",
+    "agency": "Yoma Ltd",
+    "link": "http://www.sportingpro.co.uk/",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/sporting-pro-large-1.jpg"
+      }
+    ]
+  },
+  "ten-supplements": {
+    "title": "Ten Supplements",
+    "platform": "Magento Enterprise",
+    "agency": "Yoma Ltd",
+    "link": "http://www.tensupplements.co.uk",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/ten-supplements-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/ten-supplements-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/ten-supplements-large-3.jpg"
+      }
+    ]
+  },
+  "boohoo-fr": {
+    "title": "Boohoo FR",
+    "platform": "Magento Enterprise",
+    "agency": "Yoma Ltd",
+    "link": "http://fr.boohoo.com/",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/boohoo-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/boohoo-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/boohoo-large-3.jpg"
+      }
+    ]
+  },
+  "all-about-weight": {
+    "title": "All About Weight",
+    "platform": "Magento Enterprise",
+    "agency": "Yoma Ltd",
+    "link": "http://www.allaboutweight.co.uk/",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/all-about-weight-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/all-about-weight-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/all-about-weight-large-3.jpg"
+      }
+    ]
+  },
+  "tj-hughes": {
+    "title": "TJ Hughes",
+    "platform": "Magento Enterprise",
+    "agency": "Yoma Ltd",
+    "link": "http://www.tjhughes.co.uk/",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/tj-hughes-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/tj-hughes-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/tj-hughes-large-3.jpg"
+      }
+    ]
+  },
+  "eureka-cycle-sports": {
+    "title": "Eureka Cycle Sports",
+    "platform": "Magento Community",
+    "agency": "Yoma Ltd",
+    "link": "http://www.eurekacyclesports.co.uk/",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/eureka-cycle-sports-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/eureka-cycle-sports-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/eureka-cycle-sports-large-3.jpg"
+      }
+    ]
+  },
+  "aphrodite1994": {
+    "title": "Aphrodite 1994",
+    "platform": "Magento Community",
+    "agency": "Yoma Ltd",
+    "link": "http://www.eurekacyclesports.co.uk/",
+    "gallery": [
+      {
+        "src": "dist/assets/img/projects/aphrodite1994-large-1.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/aphrodite1994-large-2.jpg"
+      },
+      {
+        "src": "dist/assets/img/projects/aphrodite1994-large-3.jpg"
+      }
+    ]
+  }
+}
