@@ -6,13 +6,13 @@
     "link": "http://www.coolworld.com.ng",
     "gallery": [
       {
-        "src": "dist/assets/img/projects/coolworld-large-1.jpg"
+        "src": "assets/img/projects/coolworld-large-1.jpg"
       },
       {
-        "src": "dist/assets/img/projects/coolworld-large-2.jpg"
+        "src": "assets/img/projects/coolworld-large-2.jpg"
       },
       {
-        "src": "dist/assets/img/projects/coolworld-large-3.jpg"
+        "src": "assets/img/projects/coolworld-large-3.jpg"
       }
     ]
 
@@ -25,13 +25,13 @@
     "link": "http://fudgeurban.com",
     "gallery": [
       {
-        "src": "dist/assets/img/projects/fudge-urban-large-1.jpg"
+        "src": "assets/img/projects/fudge-urban-large-1.jpg"
       },
       {
-        "src": "dist/assets/img/projects/fudge-urban-large-2.jpg"
+        "src": "assets/img/projects/fudge-urban-large-2.jpg"
       },
       {
-        "src": "dist/assets/img/projects/fudge-urban-large-3.jpg"
+        "src": "assets/img/projects/fudge-urban-large-3.jpg"
       }
     ]
 
@@ -44,13 +44,13 @@
     "link": false,
     "gallery": [
       {
-        "src": "dist/assets/img/projects/sainsburys-large-1.jpg"
+        "src": "assets/img/projects/sainsburys-large-1.jpg"
       },
       {
-        "src": "dist/assets/img/projects/sainsburys-large-2.jpg"
+        "src": "assets/img/projects/sainsburys-large-2.jpg"
       },
       {
-        "src": "dist/assets/img/projects/sainsburys-large-3.jpg"
+        "src": "assets/img/projects/sainsburys-large-3.jpg"
       }
     ]
 
@@ -63,13 +63,13 @@
     "link": false,
     "gallery": [
       {
-        "src": "dist/assets/img/projects/post-office-large-1.jpg"
+        "src": "assets/img/projects/post-office-large-1.jpg"
       },
       {
-        "src": "dist/assets/img/projects/post-office-large-2.jpg"
+        "src": "assets/img/projects/post-office-large-2.jpg"
       },
       {
-        "src": "dist/assets/img/projects/post-office-large-3.jpg"
+        "src": "assets/img/projects/post-office-large-3.jpg"
       }
     ]
   },
@@ -80,13 +80,13 @@
     "link": "http://www.thesoccerstore.co.uk",
     "gallery": [
       {
-        "src": "dist/assets/img/projects/the-soccer-store-large-1.jpg"
+        "src": "assets/img/projects/the-soccer-store-large-1.jpg"
       },
       {
-        "src": "dist/assets/img/projects/the-soccer-store-large-2.jpg"
+        "src": "assets/img/projects/the-soccer-store-large-2.jpg"
       },
       {
-        "src": "dist/assets/img/projects/the-soccer-store-large-3.jpg"
+        "src": "assets/img/projects/the-soccer-store-large-3.jpg"
       }
     ]
   },
@@ -97,7 +97,7 @@
     "link": "http://www.sportingpro.co.uk/",
     "gallery": [
       {
-        "src": "dist/assets/img/projects/sporting-pro-large-1.jpg"
+        "src": "assets/img/projects/sporting-pro-large-1.jpg"
       }
     ]
   },
@@ -108,13 +108,13 @@
     "link": "http://www.tensupplements.co.uk",
     "gallery": [
       {
-        "src": "dist/assets/img/projects/ten-supplements-large-1.jpg"
+        "src": "assets/img/projects/ten-supplements-large-1.jpg"
       },
       {
-        "src": "dist/assets/img/projects/ten-supplements-large-2.jpg"
+        "src": "assets/img/projects/ten-supplements-large-2.jpg"
       },
       {
-        "src": "dist/assets/img/projects/ten-supplements-large-3.jpg"
+        "src": "assets/img/projects/ten-supplements-large-3.jpg"
       }
     ]
   },
@@ -125,13 +125,13 @@
     "link": "http://fr.boohoo.com/",
     "gallery": [
       {
-        "src": "dist/assets/img/projects/boohoo-large-1.jpg"
+        "src": "assets/img/projects/boohoo-large-1.jpg"
       },
       {
-        "src": "dist/assets/img/projects/boohoo-large-2.jpg"
+        "src": "assets/img/projects/boohoo-large-2.jpg"
       },
       {
-        "src": "dist/assets/img/projects/boohoo-large-3.jpg"
+        "src": "assets/img/projects/boohoo-large-3.jpg"
       }
     ]
   },
@@ -142,13 +142,13 @@
     "link": "http://www.allaboutweight.co.uk/",
     "gallery": [
       {
-        "src": "dist/assets/img/projects/all-about-weight-large-1.jpg"
+        "src": "assets/img/projects/all-about-weight-large-1.jpg"
       },
       {
-        "src": "dist/assets/img/projects/all-about-weight-large-2.jpg"
+        "src": "assets/img/projects/all-about-weight-large-2.jpg"
       },
       {
-        "src": "dist/assets/img/projects/all-about-weight-large-3.jpg"
+        "src": "assets/img/projects/all-about-weight-large-3.jpg"
       }
     ]
   },
@@ -159,13 +159,13 @@
     "link": "http://www.tjhughes.co.uk/",
     "gallery": [
       {
-        "src": "dist/assets/img/projects/tj-hughes-large-1.jpg"
+        "src": "assets/img/projects/tj-hughes-large-1.jpg"
       },
       {
-        "src": "dist/assets/img/projects/tj-hughes-large-2.jpg"
+        "src": "assets/img/projects/tj-hughes-large-2.jpg"
       },
       {
-        "src": "dist/assets/img/projects/tj-hughes-large-3.jpg"
+        "src": "assets/img/projects/tj-hughes-large-3.jpg"
       }
     ]
   },
@@ -176,13 +176,13 @@
     "link": "http://www.eurekacyclesports.co.uk/",
     "gallery": [
       {
-        "src": "dist/assets/img/projects/eureka-cycle-sports-large-1.jpg"
+        "src": "assets/img/projects/eureka-cycle-sports-large-1.jpg"
       },
       {
-        "src": "dist/assets/img/projects/eureka-cycle-sports-large-2.jpg"
+        "src": "assets/img/projects/eureka-cycle-sports-large-2.jpg"
       },
       {
-        "src": "dist/assets/img/projects/eureka-cycle-sports-large-3.jpg"
+        "src": "assets/img/projects/eureka-cycle-sports-large-3.jpg"
       }
     ]
   },
@@ -193,13 +193,13 @@
     "link": "http://www.eurekacyclesports.co.uk/",
     "gallery": [
       {
-        "src": "dist/assets/img/projects/aphrodite1994-large-1.jpg"
+        "src": "assets/img/projects/aphrodite1994-large-1.jpg"
       },
       {
-        "src": "dist/assets/img/projects/aphrodite1994-large-2.jpg"
+        "src": "assets/img/projects/aphrodite1994-large-2.jpg"
       },
       {
-        "src": "dist/assets/img/projects/aphrodite1994-large-3.jpg"
+        "src": "assets/img/projects/aphrodite1994-large-3.jpg"
       }
     ]
   }
