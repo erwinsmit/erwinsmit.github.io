@@ -857,6 +857,9 @@ h2 {
   line-height: 80px;
   margin-left: 24px;
 }
+.navigation__item:last-child {
+  float: right;
+}
 .navigation__link {
   color: #fff;
   display: block;
@@ -875,12 +878,12 @@ h2 {
   text-indent: 10000em;
   background: url("../img/linkedin.png") no-repeat;
   position: relative;
-  top: 5px;
-  overflow: hidden;
+  top: 16px;
 }
 @media screen and (min-width: 769px) {
   .navigation__link--linkedin {
     top: 24px;
+    overflow: hidden;
   }
 }
 .navigation__link--linkedin:hover {
