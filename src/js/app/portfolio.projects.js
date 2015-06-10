@@ -48,7 +48,7 @@ Portfolio.Projects = (function ($) {
                     scrollTop: $highLight.offset().top
                 }, 500);
 
-                _gaq.push(['_trackEvent', 'Projects', projects[projectId]]);
+                _gaq.push(['_trackEvent', 'Projects', projectId]);
             });
         },
         hideProject: function () {

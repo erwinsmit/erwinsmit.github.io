@@ -53,7 +53,7 @@ gulp.task('build', function () {
 });
 
 gulp.task('deploy', function () {
-    return gulp.src(['dist/**/*', 'CNAME'])
+    return gulp.src(['dist/**/*', 'CNAME', 'favicon.ico'])
         .pipe(ghPages());
 });
 
