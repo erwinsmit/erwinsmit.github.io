@@ -52,8 +52,8 @@ gulp.task('build', function () {
     runSequence('styles', 'images', 'scripts', 'replace');
 });
 
-gulp.task('deploy', ['build'], function () {
-    return gulp.src(['dist/**/*'])
+gulp.task('deploy', function () {
+    return gulp.src(['dist/**/*', 'CNAME'])
         .pipe(ghPages());
 });
 

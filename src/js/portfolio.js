@@ -1,3 +1,5 @@
+var _gaq = _gaq || [];
+
 var Portfolio = (function ($) {
     "use strict";
     return {
