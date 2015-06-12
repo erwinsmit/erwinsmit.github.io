@@ -178,16 +178,13 @@
                 {{agency}}
             </p>
 
+            {{#if link}}
             <p>
                 <a class="button" href="{{link}}" target="_blank">View site</a>
             </p>
+            {{/if}}
+
         </div>
-
-        {{#each comments}}
-        <h2>By {{fullName author}}</h2>
-
-        <div class="body">{{body}}</div>
-        {{/each}}
 
         <div class="highlight__gallery">
             <div class="highlight__gallery-slider">
