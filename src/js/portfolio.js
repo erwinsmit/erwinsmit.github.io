@@ -1,23 +1,5 @@
-var Portfolio = (function ($) {
-    "use strict";
-    return {
-        init: function (initModules) {
-            $.each(initModules, function (key, value) {
-                if (value === true) {
-                    Portfolio[key].init();
-                }
-            });
-        }
-    };
-})(window.jQuery);
+import Navigation from './app/navigation';
+import Projects from './app/projects';
 
-jQuery(function () {
-
-    "use strict";
-    var initModules = {
-        Projects: true,
-        Navigation: true
-    };
-
-    Portfolio.init(initModules);
-});
+Navigation.init();
+Projects.init();
